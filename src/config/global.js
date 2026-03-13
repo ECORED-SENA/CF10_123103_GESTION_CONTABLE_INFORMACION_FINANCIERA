@@ -61,7 +61,6 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
@@ -112,7 +111,7 @@ export default {
         nombreRuta: 'tema4',
         numero: '4',
         titulo:
-          'Instrumentos Financieros – Clientes y otras cuentas por cobrar',
+          'Instrumentos financieros – Clientes y otras cuentas por cobrar',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -225,7 +224,7 @@ export default {
     {
       termino: 'Cartera de clientes',
       significado:
-        'Registro que permite ordenar y clasificar a los clientes de una empresa, teniendo en cuenta entre otros aspectos, la ubicación, las facturas de venta, la cuantía y los vencimientos.',
+        'Registro que permite ordenar y clasificar a los clientes de una empresa, teniendo en cuenta, entre otros aspectos, la ubicación, las facturas de venta, la cuantía y los vencimientos.',
     },
     {
       termino: 'Deterioro de cartera',
@@ -240,17 +239,17 @@ export default {
     {
       termino: 'Gastos',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'en <i>software</i> de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
     },
     {
       termino: 'Ingresos',
       significado:
-        'Incrementos en los beneficios económicos, producidos a lo largo del periodo contable, en forma de entradas o incrementos de valor de los activos, o bien como decrementos de los pasivos, que dan como resultado aumentos del patrimonio',
+        'Incrementos en los beneficios económicos, producidos a lo largo del periodo contable, en forma de entradas o incrementos de valor de los activos, o bien como decrementos de los pasivos, que dan como resultado aumentos del patrimonio.',
     },
     {
       termino: 'Instrumentos financieros',
       significado:
-        'Contrato que da lugar a un activo financiero en una empresa y simultáneamente a un pasivo financiero o a un instrumento de patrimonio en otra empresa. Activos Financieros: efectivo, cartera de clientes, inversiones, entre otros. Pasivos Financieros: proveedores, obligaciones emitidas.',
+        'Contrato que da lugar a un activo financiero en una empresa y simultáneamente a un pasivo financiero o a un instrumento de patrimonio en otra empresa. Activos financieros: efectivo, cartera de clientes, inversiones, entre otros. Pasivos financieros: proveedores, obligaciones emitidas.',
     },
     {
       termino: 'Inventarios para la venta',
@@ -258,9 +257,9 @@ export default {
         'Activos, bienes corporales, destinados para la venta en la operación de comercialización, al igual que aquellos insumos y materiales utilizados en el proceso productivo para las empresas industriales.',
     },
     {
-      termino: 'kárdex',
+      termino: 'Kárdex',
       significado:
-        'Conocido como auxiliar de inventarios o almacén, es un documento que por cada referencia de inventario muestra cronológicamente sus movimientos de entradas, salidas y saldos, tanto de unidades como de costos unitarios y totales.',
+        'Conocido como auxiliar de inventarios o almacén, es un documento que, por cada referencia de inventario, muestra cronológicamente sus movimientos de entradas, salidas y saldos, tanto de unidades como de costos unitarios y totales.',
     },
     {
       termino: 'Proveedores',
@@ -281,7 +280,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Actualícese (2018) Decreto 2483 de 2018: Anexo Técnico Compilatorio No.2 de las Normas Internacionales de Información Financiera NIIF para Pymes Grupo 2: Secciones 2, 5, 11, 13 y 27 ',
+        'Actualícese (2018). Decreto 2483 de 2018: Anexo Técnico Compilatorio No.2 de las Normas Internacionales de Información Financiera NIIF para Pymes Grupo 2: Secciones 2, 5, 11, 13 y 27.',
       link:
         'https://cdn.actualicese.com/normatividad/2018/Decretos/Anexo-2-D2483-18.pdf',
     },
@@ -305,7 +304,7 @@ export default {
     },
     {
       referencia:
-        'Estatuto Tributario Nacional (2019) Deducción de deudas de dudoso o difícil cobro: Artículo 145 del Estatuto Tributario',
+        'Estatuto Tributario Nacional (2019). Deducción de deudas de dudoso o difícil cobro: Artículo 145 del Estatuto Tributario.',
       link: 'https://estatuto.co/?e=1126',
     },
     {
@@ -315,31 +314,31 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Industria Comercio y Turismo (2016) Norma Internacional de Contabilidad 2: Inventarios',
+        'Ministerio de Industria Comercio y Turismo (2016). Norma Internacional de Contabilidad 2: Inventarios.',
       link:
         'http://www.aplicaciones-mcit.gov.co/adjuntos/niif/9%20ES_RedBV2016_IAS02_PartA.pdf',
     },
     {
       referencia:
-        'Ministerio de Industria Comercio y Turismo (2016) Norma Internacional de Contabilidad 8: Políticas Contables  ',
+        'Ministerio de Industria Comercio y Turismo (2016). Norma Internacional de Contabilidad 8: Políticas Contables.',
       link:
         'http://www.aplicaciones-mcit.gov.co/adjuntos/niif/11%20ES_RedBV2016_IAS08_PartA.pdf',
     },
     {
       referencia:
-        'Ministerio de Industria Comercio y Turismo (2016) Norma Internacional de Información Financiera 7: Instrumentos Financieros.',
+        'Ministerio de Industria Comercio y Turismo (2016). Norma Internacional de Información Financiera 7: Instrumentos Financieros.',
       link:
         'http://www.aplicaciones-mcit.gov.co/adjuntos/niif/52%20ES_RedBV2016_IFRS07_PartA.pdf',
     },
     {
       referencia:
-        'Ministerio de Industria Comercio y Turismo (2016) Norma Internacional de Información Financiera 9: Instrumentos Financieros.',
+        'Ministerio de Industria Comercio y Turismo (2016). Norma Internacional de Información Financiera 9: Instrumentos Financieros.',
       link:
         'http://www.aplicaciones-mcit.gov.co/adjuntos/niif/54%20ES_RedBV2016_IFRS09_PartA.pdf',
     },
     {
       referencia:
-        'Ministerio de Industria Comercio y Turismo (2016) Norma Internacional de Información Financiera 15: Ingresos de Actividades ordinarias.',
+        'Ministerio de Industria Comercio y Turismo (2016). Norma Internacional de Información Financiera 15: Ingresos de Actividades ordinarias.',
       link:
         'http://www.aplicaciones-mcit.gov.co/adjuntos/niif/60%20ES_RedBV2016_IFRS15_PartA.pdf',
     },

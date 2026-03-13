@@ -33,12 +33,6 @@
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: #000 !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
-.banner-principal__img
-  @media screen and (min-width: $bp-min-sm)
-    padding-top: 0
-
 figcaption
   font-weight: normal
 
@@ -258,8 +252,10 @@ table th, table td
   min-width: 900px
   width: 100%
   border-collapse: collapse
-  table-layout: fixed
+  table-layout: auto
 
+.tabla-a table
+  table-layout: auto
 
 .text-red
   color: red !important

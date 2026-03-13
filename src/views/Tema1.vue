@@ -7,7 +7,6 @@
         span 1
       h1 Inventarios
 
-
     .row.align-items-stretch.mb-5
       .col-lg-7.order-2.order-lg-1
         .bg-color-2.p-4.h-100
@@ -35,14 +34,13 @@
             .col-lg-auto
               img(src="@/assets/curso/tema1/3.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Otro aspecto fundamental que debe incluirse en la política de inventarios es el establecimiento de los precios de venta, pues la sección 13 de NIIF para Pymes (2009) requiere que se haga una comparación entre el costo de adquisición y los egresos necesarios para ponerlo en condiciones de venta y el precio de venta neto estimado, para determinar los costos de venta del inventario.
+              p.mb-0 Otro aspecto fundamental que debe incluirse en la política de inventarios es el establecimiento de los precios de venta, pues la sección 13 de NIIF para pymes (2009) requiere que se haga una comparación entre el costo de adquisición y los egresos necesarios para ponerlo en condiciones de venta y el precio de venta neto estimado, para determinar los costos de venta del inventario.
 
         .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/4.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Además de las compras, ventas de inventarios y las devoluciones que de estas se desprenden, también hacen parte de las políticas contables, los traslados entre bodegas y los procesos para el tratamiento de deterioros, y bajas de inventarios.
-
 
     .row.mb-5
       .col-lg-7
@@ -62,10 +60,10 @@
               p.mb-0 Las NIIF se acompañan de guías que ayudan a las entidades a aplicar sus requerimientos.
             li.mb-3.d-flex.mb-2
               i.fas.fa-chevron-right
-              p.mb-0 En ausencia de una NIIF que sea aplicable específicamente a una transacción, la gerencia deberá usar su juicio en el desarrollo y aplicación de una política contable, a fin de suministrar información que sea: relevante, fiable, fidedigna, neutral, prudente y que reflejen la esencia económica de las transacciones y no simplemente su forma legal.
+              p.mb-0 En ausencia de una NIIF que sea aplicable específicamente a una transacción, la gerencia deberá usar su juicio en el desarrollo y aplicación de una política contable, a fin de suministrar información que sea: relevante, fiable, fidedigna, neutral, prudente y que refleje la esencia económica de las transacciones y no simplemente su forma legal.
             li.mb-3.d-flex
               i.fas.fa-chevron-right
-              p.mb-0 La gerencia se referirá a las fuentes para considerar su aplicabilidad; como los requerimientos de temas relacionados y las definiciones, reconocimiento y medición para los elementos de los estados financieros.
+              p.mb-0 La gerencia se referirá a las fuentes para considerar su aplicabilidad, como los requerimientos de temas relacionados y las definiciones, reconocimiento y medición para los elementos de los estados financieros.
 
       .col-lg-5.d-none.d-lg-block
         figure
@@ -85,29 +83,28 @@
 
             .col-lg-8
 
-              SlyderF.mb-5(columnas="col-lg-6")(data-aos="zoom-in-up")
-                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-center
+              SlyderF(columnas="col-lg-6")(data-aos="zoom-in-up")
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-left
                   img(src='@/assets/curso/tema1/icono-1.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
-                  p.text-center Deben ser considerados como activos poseídos para ser vendidos en el curso normal de la operación.
-                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-center
+                  p.text-left Deben ser considerados como activos poseídos para ser vendidos en el curso normal de la operación.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-left
                   img(src='@/assets/curso/tema1/icono-2.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
-                  p.text-center Identificados como elementos del proceso de producción con destino a ser vendidos.
-                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-center
+                  p.text-left Identificados como elementos del proceso de producción con destino a ser vendidos.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-left
                   img(src='@/assets/curso/tema1/icono-3.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
-                  p.text-center Establecidos como materiales o suministros que serán consumidos en el proceso de producción o en la prestación de servicios.
-                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-center
+                  p.text-left Establecidos como materiales o suministros que serán consumidos en el proceso de producción o en la prestación de servicios.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-left
                   img(src='@/assets/curso/tema1/icono-4.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
-                  p.text-center Valor neto realizable es el precio estimado de venta de un activo en el curso normal de la operación menos los costos estimados para terminar su producción y los necesarios para llevar a cabo la venta.
-                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-center
+                  p.text-left El valor neto realizable es el precio estimado de venta de un activo en el curso normal de la operación menos los costos estimados para terminar su producción y los necesarios para llevar a cabo la venta.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-left
                   img(src='@/assets/curso/tema1/icono-5.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
-                  p.text-center Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes del mercado en la fecha de la medición.
-                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-center
+                  p.text-left Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un pasivo en una transacción ordenada entre participantes del mercado en la fecha de la medición.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-left
                   img(src='@/assets/curso/tema1/icono-6.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
-                  p.text-center Entre los inventarios también se incluyen los bienes comprados y almacenados para su reventa, entre los que se encuentran, por ejemplo, las mercaderías adquiridas por un minorista para la reventa a sus clientes, y también los terrenos u otras propiedades de inversión que se tienen para ser vendidos a terceros.
-                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-center
+                  p.text-left Entre los inventarios también se incluyen los bienes comprados y almacenados para su reventa, entre los que se encuentran, por ejemplo, las mercaderías adquiridas por un minorista para la reventa a sus clientes, y también los terrenos u otras propiedades de inversión que se tienen para ser vendidos a terceros.
+                .tarjeta.bg-color-white.p-4.h-100.shadow-app.text-left
                   img(src='@/assets/curso/tema1/icono-7.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
-                  p.text-center También son inventarios los productos terminados o en curso de fabricación mantenidos por la entidad, así como los materiales y suministros para ser usados en el proceso productivo.
-
+                  p.text-left También son inventarios los productos terminados o en curso de fabricación mantenidos por la entidad, así como los materiales y suministros para ser usados en el proceso productivo.
 
     Separador
     
@@ -115,7 +112,6 @@
       h2 1.2  Concepto, tipos de inventario, valuación de inventarios
 
     p.mb-5 De conformidad con la NIC 2, se definen los diferentes tipos de costos, de la siguiente manera:
-
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -151,8 +147,7 @@
             .col-lg-7.order-1.mb-3.mb-lg-0
               p Son costos indirectos fijos de producción los que permanecen relativamente constantes, con independencia del volumen de producción, tales como la depreciación y mantenimiento de los edificios y equipos de la fábrica y los activos por derecho de uso utilizados en el proceso de producción.
 
-
-    p.mb-4.d-none.d-lg-block De acuerdo con la sección 13 de NIIF para Pymes (2009), los inventarios son activos:
+    p.mb-4.d-none.d-lg-block De acuerdo con la sección 13 de NIIF para pymes (2009), los inventarios son activos:
 
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -189,8 +184,6 @@
                       i.fas.fa-chevron-right
                       p.mb-0 En la prestación de un servicio.
 
-
-
     p.mb-4 La necesidad de controlar los inventarios requiere la aplicación de un sistema que permita determinar el costo de existencia y el costo de venta; es así como se debe elegir entre dos opciones, el sistema periódico y el sistema permanente.
 
     .tarjeta--container.row.mb-5
@@ -201,19 +194,19 @@
         p.text-white.mb-4 El sistema de inventarios periódico tiene las siguientes características:
 
         ol.lista-ol--cuadro
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta2
               span a
             | Se hace conteo físico para hallar el costo de existencia.
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta2
               span b
             | Solo al cierre del ejercicio se halla el costo de venta.
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta2
               span c
-            | Solo hay un método de valuación "Juego de Inventarios".
-          li 
+            | Solo hay un método de valuación. "Juego de Inventarios".
+          li.d-flex
             .lista-ol--cuadro__vineta2
               span d
             | El kárdex solo mueve unidades sin costos.
@@ -226,29 +219,32 @@
         p.mb-4 El sistema de inventarios permanente tiene las siguientes características:
 
         ol.lista-ol--cuadro
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span a
             | Se hace conteo físico por control y no para hallar costos.
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span b
             | Costos de venta y existencia se hallan en cualquier momento.
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span c
-            | Se debe elegir uno entre varios métodos de valuación "promedio ponderado, primeras en entrar primeras en salir".
-          li 
+            | Se debe elegir uno entre varios métodos de valuación: "promedio ponderado, primeras en entrar, primeras en salir".
+          li.d-flex
             .lista-ol--cuadro__vineta
               span d
             | El kárdex mueve tanto unidades como costos.
 
-
     p.mb-4 A continuación, se presenta un ejercicio utilizando el método de valuación por promedio ponderado, el cual emplea la media aritmética para determinar el costo unitario, de la siguiente manera:
-
-    figure
-      img(src='@/assets/curso/tema1/formula1.svg', alt='Fórmula del costo unitario: Costo unitario (COS.UND) es igual al costo total (COS.TAL) dividido entre la cantidad de unidades (UND).', style="max-width: 295px").mx-auto.mb-5
-
+    
+    .row.justify-content-center.mb-5
+      .col-lg-auto
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1.
+          span Fórmula del costo unitario
+        figure
+          img(src='@/assets/curso/tema1/formula1.svg', alt='Fórmula del costo unitario: Costo unitario (COS.UND) es igual al costo total (COS.TAL) dividido entre la cantidad de unidades (UND).', style="max-width: 295px").m-auto
 
     .row.justify-content-center
       .col-lg-10
@@ -266,35 +262,34 @@
               table
                 thead
                   tr
-                    th.bg-color-acento-contenido.text-center(style="width: 20%")  Paso  
-                    th.bg-color-acento-contenido.text-center  Descripción del movimiento
+                    th.bg-color-acento-contenido.text-left(style="width: 20%")  Paso  
+                    th.bg-color-acento-contenido.text-left  Descripción del movimiento
 
                 tbody
                   tr.bg-color-white
-                    td.text-center 0
-                    td Inventario inicial: 80 camisetas a $5.000 c/u
+                    td.text-left 0
+                    td.text-left Inventario inicial: 80 camisetas a $5.000 c/u
                   tr.bg-color-7
-                    td.text-center 1
-                    td Compra: 120 camisetas a $5.500 c/u
+                    td.text-left 1
+                    td.text-left Compra: 120 camisetas a $5.500 c/u
                   tr.bg-color-white
-                    td.text-center 2
-                    td Compra: 100 camisetas a $6.000 c/u
+                    td.text-left 2
+                    td.text-left Compra: 100 camisetas a $6.000 c/u
                   tr.bg-color-7
-                    td.text-center 3
-                    td Devolución: 10 camisetas de la compra anterior
+                    td.text-left 3
+                    td.text-left Devolución: 10 camisetas de la compra anterior
                   tr.bg-color-white
-                    td.text-center 4
-                    td Venta: 190 camisetas a #[span.text-red $15.000 c/u]
+                    td.text-left 4
+                    td.text-left Venta: 190 camisetas a #[span.text-red $15.000 c/u]
                   tr.bg-color-7
-                    td.text-center 5
-                    td Devolución: 10 camisetas de la venta anterior
+                    td.text-left 5
+                    td.text-left Devolución: 10 camisetas de la venta anterior
                   tr.bg-color-white
-                    td.text-center 6
-                    td Compra: 90 camisetas a $6.500 c/u
+                    td.text-left 6
+                    td.text-left Compra: 90 camisetas a $6.500 c/u
                   tr.bg-color-7
-                    td.text-center 7
-                    td Venta: 100 camisetas a #[span.text-red $15.000 c/u]
-
+                    td.text-left 7
+                    td.text-left Venta: 100 camisetas a #[span.text-red $15.000 c/u]
 
     .bg-full-width.bg-fondo-2
       .p-4.p-md-5
@@ -304,105 +299,104 @@
           h5 Tabla 2.
           span Registro de inventario bajo el método de promedio ponderado.
 
-
         .bloque-tabla-responsive
           .tabla-a.color-acento-contenido.mb-5
             table
               thead
                 tr
-                  th.text-center.bg-color-acento-contenido(colspan="9") Promedio ponderado
+                  th.text-left.bg-color-acento-contenido(colspan="9") Promedio ponderado
                 tr
-                  th.text-center.bg-color-acento-contenido(style="width: 5%") F
-                  th.text-center.bg-color-acento-contenido Concepto
-                  th.text-center.bg-color-acento-contenido Unidades entrantes
-                  th.text-center.bg-color-acento-contenido Costo total entradas
-                  th.text-center.bg-color-acento-contenido Unidades salientes
-                  th.text-center.bg-color-acento-contenido Costo total salidas
-                  th.text-center.bg-color-acento-contenido Unidades en saldo
-                  th.text-center.bg-color-acento-contenido Costo unitario saldo
-                  th.text-center.bg-color-acento-contenido Costo total saldo
+                  th.text-left.bg-color-acento-contenido(style="width: 5%") F
+                  th.text-left.bg-color-acento-contenido Concepto
+                  th.text-left.bg-color-acento-contenido Unidades entrantes
+                  th.text-left.bg-color-acento-contenido Costo total entradas
+                  th.text-left.bg-color-acento-contenido Unidades salientes
+                  th.text-left.bg-color-acento-contenido Costo total salidas
+                  th.text-left.bg-color-acento-contenido Unidades en saldo
+                  th.text-left.bg-color-acento-contenido Costo unitario saldo
+                  th.text-left.bg-color-acento-contenido Costo total saldo
 
               tbody
                 tr.bg-color-white
-                  td.text-center 0
-                  td Inventario inicial
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 80
-                  td.text-center.text-right $5.000
-                  td.text-center.text-right $400.000
+                  td.text-left 0
+                  td.text-left Inventario inicial
+                  td.text-left -
+                  td.text-left -
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 80
+                  td.text-left $5.000
+                  td.text-left $400.000
                 tr.bg-color-7
-                  td.text-center 1
-                  td Compra
-                  td.text-center.text-right 120
-                  td.text-center.text-right $660.000
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 200
-                  td.text-center.text-right $5.300
-                  td.text-center.text-right $1.060.000
+                  td.text-left 1
+                  td.text-left Compra
+                  td.text-left 120
+                  td.text-left $660.000
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 200
+                  td.text-left $5.300
+                  td.text-left $1.060.000
                 tr.bg-color-white
-                  td.text-center 2
-                  td Compra
-                  td.text-center.text-right 100
-                  td.text-center.text-right $600.000
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 300
-                  td.text-center.text-right $5.533
-                  td.text-center.text-right $1.660.000
+                  td.text-left 2
+                  td.text-left Compra
+                  td.text-left 100
+                  td.text-left $600.000
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 300
+                  td.text-left $5.533
+                  td.text-left $1.660.000
                 tr.bg-color-7
-                  td.text-center 3
-                  td Devolución compra 2
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 10
-                  td.text-center.text-right $60.000
-                  td.text-center.text-right 290
-                  td.text-center.text-right $5.517
-                  td.text-center.text-right $1.600.000
+                  td.text-left 3
+                  td.text-left Devolución compra 2
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 10
+                  td.text-left $60.000
+                  td.text-left 290
+                  td.text-left $5.517
+                  td.text-left $1.600.000
                 tr.bg-color-white
-                  td.text-center 4
-                  td Venta
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 190
-                  td.text-center.text-right $1.048.276
-                  td.text-center.text-right 100
-                  td.text-center.text-right $5.517
-                  td.text-center.text-right $551.724
+                  td.text-left 4
+                  td.text-left Venta
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 190
+                  td.text-left $1.048.276
+                  td.text-left 100
+                  td.text-left $5.517
+                  td.text-left $551.724
                 tr.bg-color-7
-                  td.text-center 5
-                  td Devolución venta 4
-                  td.text-center.text-right 10
-                  td.text-center.text-right $55.172
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 110
-                  td.text-center.text-right $5.517
-                  td.text-center.text-right $606.897
+                  td.text-left 5
+                  td.text-left Devolución venta 4
+                  td.text-left 10
+                  td.text-left $55.172
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 110
+                  td.text-left $5.517
+                  td.text-left $606.897
                 tr.bg-color-white
-                  td.text-center 6
-                  td Compra
-                  td.text-center.text-right 90
-                  td.text-center.text-right $585.000
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 200
-                  td.text-center.text-right $5.959
-                  td.text-center.text-right $1.191.897
+                  td.text-left 6
+                  td.text-left Compra
+                  td.text-left 90
+                  td.text-left $585.000
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 200
+                  td.text-left $5.959
+                  td.text-left $1.191.897
                 tr.bg-color-7
-                  td.text-center 7
-                  td Venta
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 100
-                  td.text-center.text-right $595.948
-                  td.text-center.text-right 100
-                  td.text-center.text-right $5.959
-                  td.text-center.text-right $595.948
+                  td.text-left 7
+                  td.text-left Venta
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 100
+                  td.text-left $595.948
+                  td.text-left 100
+                  td.text-left $5.959
+                  td.text-left $595.948
 
         p.mb-5 Contablemente quedará así:
 
@@ -420,49 +414,49 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Débito
-                        th.bg-color-acento-contenido.text-center Crédito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Débito
+                        th.bg-color-acento-contenido.text-left Crédito
                     tbody
                       tr.bg-color-white
-                        td.text-center 0
-                        td.text-center.text-right $400.000
-                        td.text-center.text-right -
+                        td.text-left 0
+                        td.text-left $400.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 1
-                        td.text-center.text-right $660.000
-                        td.text-center.text-right -
+                        td.text-left 1
+                        td.text-left $660.000
+                        td.text-left -
                       tr.bg-color-white
-                        td.text-center 2
-                        td.text-center.text-right $600.000
-                        td.text-center.text-right -
+                        td.text-left 2
+                        td.text-left $600.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 3
-                        td.text-center.text-right -
-                        td.text-center.text-right $60.000
+                        td.text-left 3
+                        td.text-left -
+                        td.text-left $60.000
                       tr.bg-color-white
-                        td.text-center 4
-                        td.text-center.text-right -
-                        td.text-center.text-right $1.048.276
+                        td.text-left 4
+                        td.text-left -
+                        td.text-left $1.048.276
                       tr.bg-color-7
-                        td.text-center 5
-                        td.text-center.text-right $55.172
-                        td.text-center.text-right -
+                        td.text-left 5
+                        td.text-left $55.172
+                        td.text-left -
                       tr.bg-color-white
-                        td.text-center 6
-                        td.text-center.text-right $585.000
-                        td.text-center.text-right -
+                        td.text-left 6
+                        td.text-left $585.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 7
-                        td.text-center.text-right -
-                        td.text-center.text-right $595.948
+                        td.text-left 7
+                        td.text-left -
+                        td.text-left $595.948
                       tr.bg-color-white
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $2.300.172]
-                        td.text-center.text-right #[strong $1.704.224]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $2.300.172]
+                        td.text-left #[strong $1.704.224]
                       tr.bg-color-7
-                        td(colspan="2").text-right #[strong Saldo]
-                        td.text-center.text-right #[strong $595.949]
+                        td(colspan="2").text-left #[strong Saldo]
+                        td.text-left #[strong $595.949]
 
               .col-lg-6
                 .titulo-sexto.color-acento-contenido
@@ -472,44 +466,44 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Débito
-                        th.bg-color-acento-contenido.text-center Crédito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Débito
+                        th.bg-color-acento-contenido.text-left Crédito
                     tbody
                       tr.bg-color-white
-                        td.text-center 3
-                        td.text-center.text-right $60.000
-                        td.text-center.text-right -
+                        td.text-left 3
+                        td.text-left $60.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 4
-                        td.text-center.text-right $2.850.000
-                        td.text-center.text-right -
+                        td.text-left 4
+                        td.text-left $2.850.000
+                        td.text-left -
                       tr.bg-color-white
-                        td.text-center 7
-                        td.text-center.text-right $1.500.000
-                        td.text-center.text-right -
+                        td.text-left 7
+                        td.text-left $1.500.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 1
-                        td.text-center.text-right -
-                        td.text-center.text-right $660.000
+                        td.text-left 1
+                        td.text-left -
+                        td.text-left $660.000
                       tr.bg-color-white
-                        td.text-center 2
-                        td.text-center.text-right -
-                        td.text-center.text-right $600.000
+                        td.text-left 2
+                        td.text-left -
+                        td.text-left $600.000
                       tr.bg-color-7
-                        td.text-center 6
-                        td.text-center.text-right -
-                        td.text-center.text-right $585.000
+                        td.text-left 6
+                        td.text-left -
+                        td.text-left $585.000
                       tr.bg-color-white
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $4.410.000]
-                        td.text-center.text-right #[strong $1.995.000]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $4.410.000]
+                        td.text-left #[strong $1.995.000]
                       tr.bg-color-7
-                        td(colspan="2").text-right #[strong Saldo]
-                        td.text-center.text-right #[strong $2.415.000]  
+                        td(colspan="2").text-left #[strong Saldo]
+                        td.text-left #[strong $2.415.000]  
 
             #tablas5y6
-            .row.mb-5
+            .row
               .col-lg-6
                 .titulo-sexto.color-acento-contenido
                   h5 Tabla 5.
@@ -518,18 +512,18 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Crédito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Crédito
                     tbody
                       tr.bg-color-white
-                        td.text-center 4
-                        td.text-center.text-right $2.850.000
+                        td.text-left 4
+                        td.text-left $2.850.000
                       tr.bg-color-7
-                        td.text-center 7
-                        td.text-center.text-right $1.500.000
+                        td.text-left 7
+                        td.text-left $1.500.000
                       tr.bg-color-white
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $4.350.000]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $4.350.000]
 
               .col-lg-6
                 .titulo-sexto.color-acento-contenido
@@ -539,20 +533,19 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Débito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Débito
                     tbody
                       tr.bg-color-white
-                        td.text-center 5
-                        td.text-center.text-right $150.000
+                        td.text-left 5
+                        td.text-left $150.000
                       tr.bg-color-7
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $150.000]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $150.000]
 
-    
     .bg-full-width.bg-fondo-2
       .p-4.p-md-5
-        p.mb-5 A continuación, se muestra el mismo ejercicio, pero ahora por el método de Primera en Entrar Primeras en Salir (PEPS), cuyo objetivo es mantener los costos más recientes.
+        p.mb-5 A continuación, se muestra el mismo ejercicio, pero ahora por el método de Primera en Entrar, Primeras en Salir (PEPS), cuyo objetivo es mantener los costos más recientes.
 
         .row.justify-content-center
           .col-lg-10
@@ -572,36 +565,35 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center(style="width: 20%") Paso
-                        th.bg-color-acento-contenido.text-center Descripción del movimiento
+                        th.bg-color-acento-contenido.text-left(style="width: 20%") Paso
+                        th.bg-color-acento-contenido.text-left Descripción del movimiento
                     tbody
                       tr.bg-color-white
-                        td.text-center 0
-                        td Inventario inicial: 80 camisetas a $5.000 c/u
+                        td.text-left 0
+                        td.text-left Inventario inicial: 80 camisetas a $5.000 c/u
                       tr.bg-color-7
-                        td.text-center 1
-                        td Compra: 120 camisetas a $5.500 c/u
+                        td.text-left 1
+                        td.text-left Compra: 120 camisetas a $5.500 c/u
                       tr.bg-color-white
-                        td.text-center 2
-                        td Compra: 100 camisetas a $6.000 c/u
+                        td.text-left 2
+                        td.text-left Compra: 100 camisetas a $6.000 c/u
                       tr.bg-color-7
-                        td.text-center 3
-                        td Devolución: 10 camisetas de la compra anterior
+                        td.text-left 3
+                        td.text-left Devolución: 10 camisetas de la compra anterior
                       tr.bg-color-white
-                        td.text-center 4
-                        td Venta: 190 camisetas a $15.000 c/u
+                        td.text-left 4
+                        td.text-left Venta: 190 camisetas a $15.000 c/u
                       tr.bg-color-7
-                        td.text-center 5
-                        td Devolución: 10 camisetas de la venta anterior
+                        td.text-left 5
+                        td.text-left Devolución: 10 camisetas de la venta anterior
                       tr.bg-color-white
-                        td.text-center 6
-                        td Compra: 90 camisetas a $6.500 c/u
+                        td.text-left 6
+                        td.text-left Compra: 90 camisetas a $6.500 c/u
                       tr.bg-color-7
-                        td.text-center 7
-                        td Venta: 100 camisetas a $15.000 c/u
+                        td.text-left 7
+                        td.text-left Venta: 100 camisetas a $15.000 c/u
 
         p.mb-5 El kárdex quedará así:
-
 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 8.
@@ -612,103 +604,103 @@
             table
               thead
                 tr
-                  th.text-center.bg-color-acento-contenido(style="width: 5%") F
-                  th.text-center.bg-color-acento-contenido(style="width: 20%") Concepto
-                  th.text-center.bg-color-acento-contenido Unidades entrantes
-                  th.text-center.bg-color-acento-contenido Costo total entradas
-                  th.text-center.bg-color-acento-contenido Unidades salientes
-                  th.text-center.bg-color-acento-contenido Costo total salidas
-                  th.text-center.bg-color-acento-contenido Unidades en saldo
-                  th.text-center.bg-color-acento-contenido Costo unitario saldo
-                  th.text-center.bg-color-acento-contenido Costo total saldo
+                  th.text-left.bg-color-acento-contenido(style="width: 5%") F
+                  th.text-left.bg-color-acento-contenido(style="width: 20%") Concepto
+                  th.text-left.bg-color-acento-contenido Unidades entrantes
+                  th.text-left.bg-color-acento-contenido Costo total entradas
+                  th.text-left.bg-color-acento-contenido Unidades salientes
+                  th.text-left.bg-color-acento-contenido Costo total salidas
+                  th.text-left.bg-color-acento-contenido Unidades en saldo
+                  th.text-left.bg-color-acento-contenido Costo unitario saldo
+                  th.text-left.bg-color-acento-contenido Costo total saldo
               tbody
                 tr.bg-color-white
-                  td.text-center 0
+                  td.text-left 0
                   td Inv. Ini
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 80
-                  td.text-center.text-right $5.000
-                  td.text-center.text-right $400.000
+                  td.text-left -
+                  td.text-left -
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 80
+                  td.text-left $5.000
+                  td.text-left $400.000
 
                 tr.bg-color-7
-                  td.text-center 1
+                  td.text-left 1
                   td Compra
-                  td.text-center.text-right 120
-                  td.text-center.text-right $660.000
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 200
-                  td.text-center.text-right $5.300
-                  td.text-center.text-right $1.060.000
+                  td.text-left 120
+                  td.text-left $660.000
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 200
+                  td.text-left $5.300
+                  td.text-left $1.060.000
 
                 tr.bg-color-white
-                  td.text-center 2
+                  td.text-left 2
                   td Compra
-                  td.text-center.text-right 100
-                  td.text-center.text-right $600.000
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 300
-                  td.text-center.text-right $5.533
-                  td.text-center.text-right $1.660.000
+                  td.text-left 100
+                  td.text-left $600.000
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 300
+                  td.text-left $5.533
+                  td.text-left $1.660.000
 
                 tr.bg-color-7
-                  td.text-center 3
+                  td.text-left 3
                   td D.Com.2
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 10
-                  td.text-center.text-right $60.000
-                  td.text-center.text-right 290
-                  td.text-center.text-right $5.517
-                  td.text-center.text-right $1.600.000
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 10
+                  td.text-left $60.000
+                  td.text-left 290
+                  td.text-left $5.517
+                  td.text-left $1.600.000
 
                 tr.bg-color-white
-                  td.text-center 4
+                  td.text-left 4
                   td Venta
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 190
-                  td.text-center.text-right $1.048.276
-                  td.text-center.text-right 100
-                  td.text-center.text-right $5.517
-                  td.text-center.text-right $551.724
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 190
+                  td.text-left $1.048.276
+                  td.text-left 100
+                  td.text-left $5.517
+                  td.text-left $551.724
 
                 tr.bg-color-7
-                  td.text-center 5
+                  td.text-left 5
                   td D.Ven.4
-                  td.text-center.text-right 10
-                  td.text-center.text-right 55.172
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 110
-                  td.text-center.text-right $5.517
-                  td.text-center.text-right $606.897
+                  td.text-left 10
+                  td.text-left 55.172
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 110
+                  td.text-left $5.517
+                  td.text-left $606.897
 
                 tr.bg-color-white
-                  td.text-center 6
+                  td.text-left 6
                   td Compra
-                  td.text-center.text-right 90
-                  td.text-center.text-right 585.000
-                  td.text-center.text-right -
-                  td.text-center.text-right -
-                  td.text-center.text-right 200
-                  td.text-center.text-right $5.959
-                  td.text-center.text-right $1.191.897
+                  td.text-left 90
+                  td.text-left 585.000
+                  td.text-left -
+                  td.text-left -
+                  td.text-left 200
+                  td.text-left $5.959
+                  td.text-left $1.191.897
 
                 tr.bg-color-7
-                  td.text-center 7
+                  td.text-left 7
                   td Venta
-                  td.text-center.text-right  -
-                  td.text-center.text-right -
-                  td.text-center.text-right 100
-                  td.text-center.text-right $595.948
-                  td.text-center.text-right 100
-                  td.text-center.text-right $5.959
-                  td.text-center.text-right $595.948
+                  td.text-left  -
+                  td.text-left -
+                  td.text-left 100
+                  td.text-left $595.948
+                  td.text-left 100
+                  td.text-left $5.959
+                  td.text-left $595.948
 
         p.mb-5 Contablemente quedará así:
 
@@ -725,49 +717,49 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Débito
-                        th.bg-color-acento-contenido.text-center Crédito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Débito
+                        th.bg-color-acento-contenido.text-left Crédito
                     tbody
                       tr.bg-color-white
-                        td.text-center 0
-                        td.text-center.text-right $400.000
-                        td.text-center.text-right -
+                        td.text-left 0
+                        td.text-left $400.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 1
-                        td.text-center.text-right $660.000
-                        td.text-center.text-right -
+                        td.text-left 1
+                        td.text-left $660.000
+                        td.text-left -
                       tr.bg-color-white
-                        td.text-center 2
-                        td.text-center.text-right $600.000
-                        td.text-center.text-right -
+                        td.text-left 2
+                        td.text-left $600.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 5
-                        td.text-center.text-right $55.000
-                        td.text-center.text-right -
+                        td.text-left 5
+                        td.text-left $55.000
+                        td.text-left -
                       tr.bg-color-white
-                        td.text-center 6
-                        td.text-center.text-right $585.000
-                        td.text-center.text-right -
+                        td.text-left 6
+                        td.text-left $585.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 3
-                        td.text-center.text-right -
-                        td.text-center.text-right $60.000
+                        td.text-left 3
+                        td.text-left -
+                        td.text-left $60.000
                       tr.bg-color-white
-                        td.text-center 4
-                        td.text-center.text-right -
-                        td.text-center.text-right $1.005.000
+                        td.text-left 4
+                        td.text-left -
+                        td.text-left $1.005.000
                       tr.bg-color-7
-                        td.text-center 7
-                        td.text-center.text-right -
-                        td.text-center.text-right $590.000
+                        td.text-left 7
+                        td.text-left -
+                        td.text-left $590.000
                       tr.bg-color-white
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $2.300.000]
-                        td.text-center.text-right #[strong $1.655.000]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $2.300.000]
+                        td.text-left #[strong $1.655.000]
                       tr.bg-color-7
-                        td(colspan="2").text-right #[strong Saldo final]
-                        td.text-center.text-right #[strong $645.000]
+                        td(colspan="2") #[strong Saldo final]
+                        td.text-left #[strong $645.000]
 
               .col-lg-6
                 .titulo-sexto.color-acento-contenido
@@ -777,45 +769,45 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Débito
-                        th.bg-color-acento-contenido.text-center Crédito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Débito
+                        th.bg-color-acento-contenido.text-left Crédito
                     tbody
                       tr.bg-color-white
-                        td.text-center 3
-                        td.text-center.text-right $60.000
-                        td.text-center.text-right -
+                        td.text-left 3
+                        td.text-left $60.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 4
-                        td.text-center.text-right $2.850.000
-                        td.text-center.text-right -
+                        td.text-left 4
+                        td.text-left $2.850.000
+                        td.text-left -
                       tr.bg-color-white
-                        td.text-center 7
-                        td.text-center.text-right $1.500.000
-                        td.text-center.text-right -
+                        td.text-left 7
+                        td.text-left $1.500.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 1
-                        td.text-center.text-right -
-                        td.text-center.text-right $660.000
+                        td.text-left 1
+                        td.text-left -
+                        td.text-left $660.000
                       tr.bg-color-white
-                        td.text-center 2
-                        td.text-center.text-right -
-                        td.text-center.text-right $600.000
+                        td.text-left 2
+                        td.text-left -
+                        td.text-left $600.000
                       tr.bg-color-7
-                        td.text-center 5
-                        td.text-center.text-right -
-                        td.text-center.text-right $150.000
+                        td.text-left 5
+                        td.text-left -
+                        td.text-left $150.000
                       tr.bg-color-white
-                        td.text-center 6
-                        td.text-center.text-right -
-                        td.text-center.text-right $585.000
+                        td.text-left 6
+                        td.text-left -
+                        td.text-left $585.000
                       tr.bg-color-7
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $4.410.000]
-                        td.text-center.text-right #[strong $1.995.000]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $4.410.000]
+                        td.text-left #[strong $1.995.000]
                       tr.bg-color-white
-                        td(colspan="2").text-right #[strong Saldo final]
-                        td.text-center.text-right #[strong $2.415.000]
+                        td(colspan="2") #[strong Saldo final]
+                        td.text-left #[strong $2.415.000]
 
 
             #tablas11-12-13
@@ -828,18 +820,18 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Crédito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Crédito
                     tbody
                       tr.bg-color-white
-                        td.text-center 4
-                        td.text-center.text-right $2.850.000
+                        td.text-left 4
+                        td.text-left $2.850.000
                       tr.bg-color-7
-                        td.text-center 7
-                        td.text-center.text-right $1.500.000
+                        td.text-left 7
+                        td.text-left $1.500.000
                       tr.bg-color-white
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $4.350.000]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $4.350.000]
             .row.justify-content-center.mb-4
               .col-xl-10
                 .titulo-sexto.color-acento-contenido
@@ -849,15 +841,15 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Débito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Débito
                     tbody
                       tr.bg-color-white
-                        td.text-center 5
-                        td.text-center.text-right $150.000
+                        td.text-left 5
+                        td.text-left $150.000
                       tr.bg-color-7
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $150.000]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $150.000]
             .row.justify-content-center.mb-4
               .col-xl-10
                 .titulo-sexto.color-acento-contenido
@@ -867,36 +859,36 @@
                   table
                     thead
                       tr
-                        th.bg-color-acento-contenido.text-center Fecha
-                        th.bg-color-acento-contenido.text-center Débito
-                        th.bg-color-acento-contenido.text-center Crédito
+                        th.bg-color-acento-contenido.text-left Fecha
+                        th.bg-color-acento-contenido.text-left Débito
+                        th.bg-color-acento-contenido.text-left Crédito
                     tbody
                       tr.bg-color-white
-                        td.text-center 4
-                        td.text-center.text-right $1.005.000
-                        td.text-center.text-right -
+                        td.text-left 4
+                        td.text-left $1.005.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center 5
-                        td.text-center.text-right -
-                        td.text-center.text-right $55.000
+                        td.text-left 5
+                        td.text-left -
+                        td.text-left $55.000
                       tr.bg-color-white
-                        td.text-center 7
-                        td.text-center.text-right $590.000
-                        td.text-center.text-right -
+                        td.text-left 7
+                        td.text-left $590.000
+                        td.text-left -
                       tr.bg-color-7
-                        td.text-center #[strong Totales]
-                        td.text-center.text-right #[strong $1.595.000]
-                        td.text-center.text-right #[strong $55.000]
+                        td.text-left #[strong Totales]
+                        td.text-left #[strong $1.595.000]
+                        td.text-left #[strong $55.000]
                       tr.bg-color-white
-                        td(colspan="2").text-right #[strong Saldo final]
-                        td.text-center.text-right #[strong $1.540.000]
+                        td(colspan="2") #[strong Saldo final]
+                        td.text-left #[strong $1.540.000]
 
     Separador
 
     #t_1_3.titulo-segundo.color-acento-contenido.mb-5(data-aos="flip-up")
       h2 1.3 Medición, reconocimiento con impuestos y retenciones
 
-    p.mb-4 La medición de los inventarios consiste en determinar el valor por el cual serán reconocidos en los estados financieros. La NIC 2, hace referencia de las técnicas para la medición inicial y posterior del costo de los inventarios, tales como el método del costo estándar o el método de los minoristas, los cuales podrán ser utilizadas por conveniencia siempre que el resultado de aplicarlas se aproxime al costo.
+    p.mb-4 La medición de los inventarios consiste en determinar el valor por el cual serán reconocidos en los estados financieros. La NIC 2, hace referencia a las técnicas para la medición inicial y posterior del costo de los inventarios, tales como el método del costo estándar o el método de los minoristas, los cuales podrán ser utilizados por conveniencia siempre que el resultado de aplicarlas se aproxime al costo.
 
     .row.justify-content-center
       .col-lg-9
@@ -906,7 +898,6 @@
           .col-lg
             p.mb-0 Los costos estándares tendrán en cuenta los niveles normales de materias primas, suministros, mano de obra, eficiencia y utilización de la capacidad. Estos se revisarán de forma regular y, si es necesario, se cambiarán en función de las condiciones actuales.
 
-
         .bg-color-2.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-xxl-auto.d-xl-none.d-xxl-block.col-12
@@ -915,15 +906,12 @@
             .col-xxl.col-12
               .p-4
                 p.mb-0(data-aos="fade-up") El método de los minoristas se utiliza a menudo, en el sector comercial al por menor para la medición de inventarios cuando hay un gran número de artículos que rotan velozmente, que tienen márgenes similares y para los cuales resulta impracticable usar otros métodos de cálculo de costos. Cuando se emplea este método, el costo de los inventarios se determinará deduciendo, del precio de venta del artículo en cuestión, un porcentaje apropiado de margen bruto. El porcentaje aplicado tendrá en cuenta la parte de los inventarios que se han marcado por debajo de su precio de venta original. A menudo se utiliza un porcentaje promedio para cada sección o departamento comercial.
-        
-
 
       .col-lg-3.d-none.d-xl-block
         figure
           img(src="@/assets/curso/tema1/13.png", alt='', style="max-width: 305px").mx-auto.mb-4
 
-
-    p.mb-5 De acuerdo con la sección 13 de NIIF para Pymes (2009), una entidad medirá los inventarios al importe menor entre el costo y el precio de venta estimado menos los costos de terminación y venta. Una entidad incluirá en el costo de los inventarios todos los costos de compra, costos de transformación y otros costos incurridos para darles su condición y ubicación actuales. Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
+    p.mb-5 De acuerdo con la sección 13 de NIIF para pymes (2009), una entidad medirá los inventarios al importe menor entre el costo y el precio de venta estimado menos los costos de terminación y venta. Una entidad incluirá en el costo de los inventarios todos los costos de compra, costos de transformación y otros costos incurridos para darles su condición y ubicación actuales. Se puede usar dos o más columnas para diagramar el texto; estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
 
     .row.justify-content-center.mb-5
       .col-lg-5
@@ -936,18 +924,17 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/16.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 De acuerdo con la sección 13 de NIIF para Pymes (2009), cuando los inventarios se vendan, la entidad reconocerá el importe en libros de estos como un costo (gasto) en el período en el que se reconozcan los correspondientes ingresos de actividades ordinarias.
+            p.mb-0 De acuerdo con la sección 13 de NIIF para pymes (2009), cuando los inventarios se vendan, la entidad reconocerá el importe en libros de estos como un costo (gasto) en el período en el que se reconozcan los correspondientes ingresos de actividades ordinarias.
 
-        p.mb-4 En el proceso de compra se debe reconocer el impuesto a las ventas descontable y practicar las correspondientes retenciones sobre los impuestos a la renta, a industria y comercio e incluso a las ventas; dependiendo de las obligaciones tributarias y características fiscales del comprador y el proveedor.
+        p.mb-4 En el proceso de compra se debe reconocer el impuesto a las ventas descontable y practicar las correspondientes retenciones sobre los impuestos a la renta, a industria y comercio e incluso a las ventas, dependiendo de las obligaciones tributarias y características fiscales del comprador y el proveedor.
 
         .bg-color-2.p-4
-          p.mb-0 Por otro lado, en el proceso de ventas se debe reconocer el impuesto a las ventas generado, al igual que los correspondientes anticipos por retenciones de los impuestos a la renta, de industria y comercio e incluso a las ventas; dependiendo de las obligaciones tributarias y características fiscales del vendedor y el cliente.
+          p.mb-0 Por otro lado, en el proceso de ventas se debe reconocer el impuesto a las ventas generado, al igual que los correspondientes anticipos por retenciones de los impuestos a la renta, de industria y comercio e incluso a las ventas, dependiendo de las obligaciones tributarias y características fiscales del vendedor y el cliente.
 
-
-    p.mb-5 A continuación, se muestra un ejercicio de reconocimiento de las operaciones de compra y venta de inventarios incluido los impuestos y las retenciones.
+    p.mb-5 A continuación, se muestra un ejercicio de reconocimiento de las operaciones de compra y venta de inventarios, incluidos los impuestos y las retenciones.
 
     LineaTiempoD.color-secundario
-      div(numero="1" titulo="Gira anticipo a proveedores por $ 5.000.000") 
+      div(numero="1" titulo="Gira anticipo a proveedores por $5.000.000") 
         .row.justify-content-center
           .col-lg-10
             .titulo-sexto.color-acento-contenido.mb-3
@@ -957,24 +944,24 @@
               table
                 thead
                   tr
-                    th.bg-color-acento-contenido.text-center Ele
-                    th.bg-color-acento-contenido.text-center Cuenta
-                    th.bg-color-acento-contenido.text-center Debe
-                    th.bg-color-acento-contenido.text-center Haber
+                    th.bg-color-acento-contenido.text-left Ele
+                    th.bg-color-acento-contenido.text-left Cuenta
+                    th.bg-color-acento-contenido.text-left Debe
+                    th.bg-color-acento-contenido.text-left Haber
                 tbody
                   tr.bg-color-white
-                    td.text-center AC
+                    td.text-left AC
                     td Anticipo a proveedores
-                    td.text-center.text-right $5.000.000
-                    td.text-center.text-right -
+                    td.text-left $5.000.000
+                    td.text-left -
                   tr.bg-color-7
-                    td.text-center AC
+                    td.text-left AC
                     td Efectivo y equivalentes al efectivo
-                    td.text-center.text-right -
-                    td.text-center.text-right $5.000.000
+                    td.text-left -
+                    td.text-left $5.000.000
 
       div(numero="2" titulo="Compra inventarios") 
-        p Compra inventarios para la venta por $19.500.000 más IVA 19%, menos retefuente 2,5% y reteica 0,4%. Legaliza el anticipo y el. saldo a crédito.
+        p Compra inventarios para la venta por $19.500.000 más IVA 19 %, menos retefuente 2,5 % y reteica 0,4 %. Legaliza el anticipo y el saldo a crédito.
         .row.justify-content-center
           .col-lg-10
             .titulo-sexto.color-acento-contenido.mb-3
@@ -984,44 +971,44 @@
               table
                 thead
                   tr
-                    th.bg-color-acento-contenido.text-center Ele
-                    th.bg-color-acento-contenido.text-center Cuenta
-                    th.bg-color-acento-contenido.text-center Debe
-                    th.bg-color-acento-contenido.text-center Haber
+                    th.bg-color-acento-contenido.text-left Ele
+                    th.bg-color-acento-contenido.text-left Cuenta
+                    th.bg-color-acento-contenido.text-left Debe
+                    th.bg-color-acento-contenido.text-left Haber
                 tbody
                   tr.bg-color-white
-                    td.text-center AC
+                    td.text-left AC
                     td Inv. Mercancías
-                    td.text-center.text-right $19.500.000
-                    td.text-center.text-right -
+                    td.text-left $19.500.000
+                    td.text-left -
                   tr.bg-color-7
-                    td.text-center PS
+                    td.text-left PS
                     td IVA Descontable
-                    td.text-center.text-right $3.705.000
-                    td.text-center.text-right -
+                    td.text-left $3.705.000
+                    td.text-left -
                   tr.bg-color-white
-                    td.text-center PS
-                    td Retefuente 2,5%
-                    td.text-center.text-right -
-                    td.text-center.text-right $487.500
+                    td.text-left PS
+                    td Retefuente 2,5 %
+                    td.text-left -
+                    td.text-left $487.500
                   tr.bg-color-7
-                    td.text-center PS
-                    td Reteica 0,4%
-                    td.text-center.text-right -
-                    td.text-center.text-right $78.000
+                    td.text-left PS
+                    td Reteica 0,4 %
+                    td.text-left -
+                    td.text-left $78.000
                   tr.bg-color-white
-                    td.text-center AC
+                    td.text-left AC
                     td Anticipo a proveedores
-                    td.text-center.text-right -
-                    td.text-center.text-right $5.000.000
+                    td.text-left -
+                    td.text-left $5.000.000
                   tr.bg-color-7
-                    td.text-center PS
+                    td.text-left PS
                     td Proveedores
-                    td.text-center.text-right -
-                    td.text-center.text-right $17.639.500
+                    td.text-left -
+                    td.text-left $17.639.500
 
       div(numero="3" titulo="Devolución inventarios") 
-        p Devuelve a su proveedor inventarios por $ 1.500.000 incluido IVA 19 %
+        p Devuelve a su proveedor inventarios por $1.500.000 incluido IVA 19 %.
         .row.justify-content-center
           .col-lg-10
 
@@ -1033,39 +1020,39 @@
               table
                 thead
                   tr
-                    th.bg-color-acento-contenido.text-center Ele
-                    th.bg-color-acento-contenido.text-center Cuenta
-                    th.bg-color-acento-contenido.text-center Debe
-                    th.bg-color-acento-contenido.text-center Haber
+                    th.bg-color-acento-contenido.text-left Ele
+                    th.bg-color-acento-contenido.text-left Cuenta
+                    th.bg-color-acento-contenido.text-left Debe
+                    th.bg-color-acento-contenido.text-left Haber
                 tbody
                   tr.bg-color-white
-                    td.text-center AC
+                    td.text-left AC
                     td Inventarios para la venta
-                    td.text-center.text-right -
-                    td.text-center.text-right $1.260.504
+                    td.text-left -
+                    td.text-left $1.260.504
                   tr.bg-color-7
-                    td.text-center PS
+                    td.text-left PS
                     td IVA Descontable
-                    td.text-center.text-right -
-                    td.text-center.text-right $239.496
+                    td.text-left -
+                    td.text-left $239.496
                   tr.bg-color-white
-                    td.text-center PS
-                    td Retefuente 2,5%
-                    td.text-center.text-right $31.513
-                    td.text-center.text-right -
+                    td.text-left PS
+                    td Retefuente 2,5 %
+                    td.text-left $31.513
+                    td.text-left -
                   tr.bg-color-7
-                    td.text-center PS
-                    td Reteica 0,4%
-                    td.text-center.text-right $5.042
-                    td.text-center.text-right -
+                    td.text-left PS
+                    td Reteica 0,4 %
+                    td.text-left $5.042
+                    td.text-left -
                   tr.bg-color-white
-                    td.text-center PS
+                    td.text-left PS
                     td Cuentas por Pagar – Proveedores
-                    td.text-center.text-right $1.463.445
-                    td.text-center.text-right -
+                    td.text-left $1.463.445
+                    td.text-left -
 
       div(numero="4" titulo="Venta de inventarios") 
-        p Vende inventarios por un precio de $ 11.500.000 incluido IVA 19 %, menos: retefuente 2,5 %, reteiva 15 % y reteica 0,4 %. Le pagan el 40 % y el saldo a crédito (65 % Gasto de Venta)
+        p Vende inventarios por un precio de $11.500.000 incluido IVA 19 %, menos: retefuente 2,5 %, reteiva 15 % y reteica 0,4 %. Le pagan el 40 % y el saldo a crédito (65 % Gasto de Venta).
         .row.justify-content-center
           .col-lg-10
 
@@ -1077,65 +1064,64 @@
               table
                 thead
                   tr
-                    th.bg-color-acento-contenido.text-center Ele
-                    th.bg-color-acento-contenido.text-center Cuenta
-                    th.bg-color-acento-contenido.text-center Debe
-                    th.bg-color-acento-contenido.text-center Haber
+                    th.bg-color-acento-contenido.text-left Ele
+                    th.bg-color-acento-contenido.text-left Cuenta
+                    th.bg-color-acento-contenido.text-left Debe
+                    th.bg-color-acento-contenido.text-left Haber
                 tbody
                   tr.bg-color-white
-                    td.text-center IN
+                    td.text-left IN
                     td Venta de inventarios
-                    td.text-center.text-right -
-                    td.text-center.text-right $9.663.866
+                    td.text-left -
+                    td.text-left $9.663.866
                   tr.bg-color-7
-                    td.text-center PS
+                    td.text-left PS
                     td IVA Generado
-                    td.text-center.text-right -
-                    td.text-center.text-right $1.836.134
+                    td.text-left -
+                    td.text-left $1.836.134
                   tr.bg-color-white
-                    td.text-center AC
-                    td Anticipo Retefuente 2,5%
-                    td.text-center.text-right $241.597
-                    td.text-center.text-right -
+                    td.text-left AC
+                    td Anticipo Retefuente 2,5 %
+                    td.text-left $241.597
+                    td.text-left -
                   tr.bg-color-7
-                    td.text-center AC
-                    td Anticipo Reteiva 15%
-                    td.text-center.text-right $275.420
-                    td.text-center.text-right -
+                    td.text-left AC
+                    td Anticipo Reteiva 15 %
+                    td.text-left $275.420
+                    td.text-left -
                   tr.bg-color-white
-                    td.text-center AC
-                    td Anticipo Reteica 0,4%
-                    td.text-center.text-right $38.655
-                    td.text-center.text-right -
+                    td.text-left AC
+                    td Anticipo Reteica 0,4 %
+                    td.text-left $38.655
+                    td.text-left -
                   tr.bg-color-7
-                    td.text-center AC
+                    td.text-left AC
                     td Cuentas por cobrar Clientes
-                    td.text-center.text-right $10.944.328
-                    td.text-center.text-right -
+                    td.text-left $10.944.328
+                    td.text-left -
                   tr.bg-color-white
-                    td.text-center AC
+                    td.text-left AC
                     td Cuentas por cobrar Clientes
-                    td.text-center.text-right -
-                    td.text-center.text-right $4.377.731
+                    td.text-left -
+                    td.text-left $4.377.731
                   tr.bg-color-7
-                    td.text-center AC
+                    td.text-left AC
                     td Efectivo y equivalentes al efectivo
-                    td.text-center.text-right $4.377.731
-                    td.text-center.text-right -
+                    td.text-left $4.377.731
+                    td.text-left -
                   tr.bg-color-white.text-red
-                    td.text-center GA
+                    td.text-left GA
                     td Gasto de venta
-                    td.text-center.text-right $6.281.513
-                    td.text-center.text-right -
+                    td.text-left $6.281.513
+                    td.text-left -
                   tr.bg-color-7.text-red
-                    td.text-center AC
+                    td.text-left AC
                     td Inventarios para la venta
-                    td.text-center.text-right -
-                    td.text-center.text-right $6.281.513
-
+                    td.text-left -
+                    td.text-left $6.281.513
 
       div(numero="5" titulo="Devolución de mercancía") 
-        p El cliente le devuelve mercancías por $850.000 más IVA 19%, (65% Gasto  Devolución en Venta)
+        p El cliente le devuelve mercancías por $850.000 más IVA 19 %, (65 % Gasto  Devolución en Venta).
         .row.justify-content-center
           .col-lg-10
 
@@ -1147,52 +1133,51 @@
               table
                 thead
                   tr
-                    th.bg-color-acento-contenido.text-center Ele
-                    th.bg-color-acento-contenido.text-center Cuenta
-                    th.bg-color-acento-contenido.text-center Debe
-                    th.bg-color-acento-contenido.text-center Haber
+                    th.bg-color-acento-contenido.text-left Ele
+                    th.bg-color-acento-contenido.text-left Cuenta
+                    th.bg-color-acento-contenido.text-left Debe
+                    th.bg-color-acento-contenido.text-left Haber
                 tbody
                   tr.bg-color-white
-                    td.text-center IN
+                    td.text-left IN
                     td Devoluciones en venta
-                    td.text-center.text-right $850.000
-                    td.text-center.text-right -
+                    td.text-left $850.000
+                    td.text-left -
                   tr.bg-color-7
-                    td.text-center PS
+                    td.text-left PS
                     td IVA Generado
-                    td.text-center.text-right $161.500
-                    td.text-center.text-right -
+                    td.text-left $161.500
+                    td.text-left -
                   tr.bg-color-white
-                    td.text-center AC
-                    td Anticipo Retefuente 2,5%
-                    td.text-center.text-right -
-                    td.text-center.text-right $21.250
+                    td.text-left AC
+                    td Anticipo Retefuente 2,5 %
+                    td.text-left -
+                    td.text-left $21.250
                   tr.bg-color-7
-                    td.text-center AC
-                    td Anticipo Reteiva 15%
-                    td.text-center.text-right -
-                    td.text-center.text-right $24.225
+                    td.text-left AC
+                    td Anticipo Reteiva 15 %
+                    td.text-left -
+                    td.text-left $24.225
                   tr.bg-color-white
-                    td.text-center AC
-                    td Anticipo Reteica 0,4%
-                    td.text-center.text-right -
-                    td.text-center.text-right $3.400
+                    td.text-left AC
+                    td Anticipo Reteica 0,4 %
+                    td.text-left -
+                    td.text-left $3.400
                   tr.bg-color-7
-                    td.text-center AC
+                    td.text-left AC
                     td Cuentas por cobrar Clientes
-                    td.text-center.text-right -
-                    td.text-center.text-right $962.625
+                    td.text-left -
+                    td.text-left $962.625
                   tr.bg-color-white
-                    td.text-center GA
+                    td.text-left GA
                     td Gasto de venta
-                    td.text-center.text-right -
-                    td.text-center.text-right $552.500
+                    td.text-left -
+                    td.text-left $552.500
                   tr.bg-color-7.text-red
-                    td.text-center AC
+                    td.text-left AC
                     td Inventarios para la venta
-                    td.text-center.text-right $552.500
-                    td.text-center.text-right -
-
+                    td.text-left $552.500
+                    td.text-left -
 
     Separador
 
@@ -1210,7 +1195,7 @@
                 img(src="@/assets/curso/tema1/17.svg").mx-auto.my-4.my-lg-0
             .col-lg-8
               .p-4
-                p.mb-4 De acuerdo con la sección 13 de NIIF para Pymes 8 (2009), una entidad revelará la siguiente información:
+                p.mb-4 De acuerdo con la sección 13 de NIIF para pymes 8 (2009), una entidad revelará la siguiente información:
 
                 .bg-color-white.p-2.mb-2
                   ul.lista-ul--color.mb-0
@@ -1231,9 +1216,9 @@
                   ul.lista-ul--color.mb-0
                     li.d-flex.mb-0
                       i.fas.fa-chevron-right
-                      p.mb-0 Las pérdidas por deterioro del valor reconocidas o revertidas en el resultado de acuerdo con la sección 27 de NIIF para Pymes “Deterioro del Valor de los Activos” (2009).
+                      p.mb-0 Las pérdidas por deterioro del valor reconocidas o revertidas en el resultado de acuerdo con la sección 27 de NIIF para pymes “Deterioro del Valor de los Activos” (2009).
 
-    p El importe total en libros de los inventarios pignorados en garantía de pasivos.
+    p.mb-0 El importe total en libros de los inventarios pignorados en garantía de pasivos.
 
 </template>
 

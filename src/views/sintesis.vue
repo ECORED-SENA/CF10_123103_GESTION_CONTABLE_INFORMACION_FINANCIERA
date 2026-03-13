@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.png", alt="Síntesis sobre el registro contable de compras y ventas según NIIF y normativa vigente, que abarca áreas como registro de compras y ventas, inventarios, instrumentos financieros (cuentas por pagar y por cobrar), ingresos y gastos. Incluye aspectos como políticas contables, métodos de valuación, reconocimiento y medición, presentación en estados financieros, y clasificación de ingresos y gastos.")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre el registro contable de compras y ventas según NIIF y normativa vigente, que abarca áreas como registro de compras y ventas, inventarios, instrumentos financieros (cuentas por pagar y por cobrar), ingresos y gastos. Incluye aspectos como políticas contables, métodos de valuación, reconocimiento y medición, presentación en estados financieros, y clasificación de ingresos y gastos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
