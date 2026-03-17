@@ -262,7 +262,7 @@
               li 
                 .lista-ol--cuadro__vineta2
                   span 5
-                | Paga fletes por transportes de materiales por $1.000.000, menos retefuente 1%
+                | Paga fletes por transportes de materiales por $1.000.000, menos retefuente 1%.
 
 
             .row.mb-5.justify-content-center

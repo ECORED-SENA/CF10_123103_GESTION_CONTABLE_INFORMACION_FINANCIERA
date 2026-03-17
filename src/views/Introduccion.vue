@@ -17,7 +17,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 En el presente componente podrá conocer los conceptos referentes a los inventarios destinados para la venta; así mismo, le permite aplicar los sistemas de inventarios, sus correspondientes métodos de evaluación, al igual que los instrumentos financieros utilizados en operaciones de compra y venta de inventarios, con la respectiva carga impositiva, de acuerdo con la normatividad y políticas contables vigentes.
+            p.mb-0 En el presente componente podrá conocer los conceptos referentes a los inventarios destinados para la venta; así mismo, le permite aplicar los sistemas de inventarios, sus correspondientes métodos de valuación, al igual que los instrumentos financieros utilizados en operaciones de compra y venta de inventarios, con la respectiva carga impositiva, de acuerdo con la normatividad y políticas contables vigentes.
         .bg-color-4
           .row.justify-content-center.align-items-center
             .col-lg

@@ -205,7 +205,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta2
               span c
-            | Solo hay un método de valuación. "Juego de Inventarios".
+            | Solo hay un método de valuación: "Juego de Inventarios".
           li.d-flex
             .lista-ol--cuadro__vineta2
               span d

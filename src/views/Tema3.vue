@@ -188,7 +188,7 @@
                         td.text-left AC
                         td Cuentas por cobrar Clientes
                         td.text-left -
-                        td.text-left 12.563.950
+                        td.text-left $12.563.950
                       tr.bg-color-white
                         td.text-left AC
                         td Efectivo y equivalentes al efectivo
